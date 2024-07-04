@@ -1,0 +1,39 @@
+table {
+    border-collapse: inherit;
+}
+.thead-light {
+    background-color: rgb(206, 32, 32);
+    font-weight: 400;
+}
+.thead-light th {
+    font-weight: 500;
+}
+
+table tbody tr td {
+    cursor: pointer;
+}
+
+table   tbody   tr.active  td{
+    background-color: #0e4fbe !important;
+}
+
+.btn-xs{
+    margin :1px;
+    border-radius:2px;
+} 
+.product-header{
+    display: flex;
+    padding-top: 20px;
+    margin-bottom:20px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size:30px;
+    color:rgb(65,65,65);
+}
+.btn-outline-primary:hover{
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    text-align: right;
+}
